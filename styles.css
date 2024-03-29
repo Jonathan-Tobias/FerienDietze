@@ -3,7 +3,7 @@
   height: 100%;
   width: 10%; /* Adjust as needed */
   min-width: 50px; /* Set a minimum width */
-  max-width: 100x; /* Set a maximum width */
+  max-width: 250px; /* Set a maximum width */
   position: fixed;
   top: 0;
   left: 0;
@@ -29,7 +29,8 @@
 
 /* Content styles */
 .content {
-  flex: 1; /* Take up remaining space */
+  margin-left: 10%; /* Adjust the margin to match the width of the sidebar */
+  width: 90%; /* Ensure the content takes up the remaining space */
   padding: 20px;
 }
 
@@ -46,6 +47,7 @@ h1 {
   font-size: 50px;
   color: white;
   background-color: #496d42;
+  margin-left: 10%;
 }
 
 h2 {
@@ -53,22 +55,26 @@ h2 {
   font-family: "Raleway", sans-serif;
   font: bold;
   font-size: 30px;
+  margin-left: 10%;
 }
 
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
+  margin-left: 10%;
 }
 
 i {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
   margin-top: 30px;
+  margin-left: 10%;
 }
 
 b {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
+  margin-left: 10%;
 }
 
 /* Image styles */
@@ -76,42 +82,50 @@ b {
   display: flex; /* Use flexbox layout */
   justify-content: center; /* Center items along the main axis */
   margin-top: 20px; 
+  margin-left: 10%;
 }
 
 .image-container img {
   max-width: 100%; /* Ensure images don't exceed container width */
   margin-right: 50px;
   margin-top: 20px;
+  margin-left: 10%;
 }
 
 .image-ferien {
   width: 30%;
   height: 30%;
+  margin-left: 10%;
 }
 
 .image-ferien img {
   width: 100%; /* ensure the image fills the div width */
   height: auto; /* maintain aspect ratio */
+  margin-left: 10%;
 }
 
 .image-wohnungen {
   width: 30%;
   height: 30%;
+  margin-left: 10%;
 }
 
 .image-wohnungen img {
   width: 100%; /* ensure the image fills the div width */
   height: auto; /* maintain aspect ratio */
+  margin-left: 10%;
 }
 
 .image-umgebung {
   width: 20%;
   height: 20%;
+  margin-left: 10%;
 }
 
 .image-umgebung img {
   width: 100%; /* ensure the image fills the div width */
   height: auto; /* maintain aspect ratio */
+  margin-left: 10%;
 }
 
 /* Body styles */
