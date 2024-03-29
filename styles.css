@@ -1,7 +1,7 @@
 /* Sidebar styles */
 .sidebar {
   height: 100%;
-  width: 10%; /* Adjust as needed */
+  width: 20%; /* Adjust as needed */
   min-width: 50px; /* Set a minimum width */
   max-width: 250px; /* Set a maximum width */
   position: fixed;
