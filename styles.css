@@ -41,19 +41,16 @@ h2{
 }
 p{
   font-family: "Open Sans", sans-serif;
-  width: calc(100% - 200px);
   font-size: 20px;
 }
 i{
   font-family: "Open Sans", sans-serif;
-  width: calc(100% - 200px);
   font-size: 17px;
   margin-top: 30px;
 }
 
 b{
   font-family: "Open Sans", sans-serif;
-  width: calc(100% - 200px);
   font-size: 20px;
 }
 .image-ferien {
