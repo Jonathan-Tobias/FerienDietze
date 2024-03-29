@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar with Buttons</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script>
+        // Function to handle button clicks
+        function buttonClicked(buttonText) {
+            let url;
+            switch(buttonText) {
+                case 'Willkommen':
+                    url = 'willkommen.html'; // Specify the URL for the corresponding page
+                    break;
+                case 'Ferienwohnungen':
+                    url = 'ferienwohnungen.html'; // Specify the URL for the corresponding page
+                    break;
+                case 'Garten':
+                    url = 'garten.html'; // Specify the URL for the corresponding page
+                    break;
+                case 'Preise':
+                    url = 'preise.html'; // Specify the URL for the corresponding page
+                    break;
+                case 'Umgebung':
+                    url = 'umgebung.html'; // Specify the URL for the corresponding page
+                    break;
+                case 'Kontakt':
+                    url = 'kontakt.html'; // Specify the URL for the corresponding page
+                    break;
+                default:
+                    return;
+            }
+            window.location.href = url; // Change the current window's location to the specified URL
+        }
+    </script>
+</head>
+<body>
+    <div class="sidebar">
+        <h1>Ferienwohnung Mirow</h1>
+        <button class="sidebar-btn" onclick="buttonClicked('Willkommen')">Willkommen</button>
+        <button class="sidebar-btn" onclick="buttonClicked('Ferienwohnungen')">Ferienwohnungen</button>
+        <button class="sidebar-btn" onclick="buttonClicked('Garten')">Garten</button>
+        <button class="sidebar-btn" onclick="buttonClicked('Preise')">Preise</button>
+        <button class="sidebar-btn" onclick="buttonClicked('Umgebung')">Umgebung</button>
+        <button class="sidebar-btn" onclick="buttonClicked('Kontakt')">Kontakt</button>
+    </div>
+    <p>TEST</p>
+</body>
+</html>
