@@ -1,7 +1,9 @@
 /* Sidebar styles */
 .sidebar {
   height: 100%;
-  width: 200px;
+  width: 20%; /* Adjust as needed */
+  min-width: 100px; /* Set a minimum width */
+  max-width: 250px; /* Set a maximum width */
   position: fixed;
   top: 0;
   left: 0;
@@ -27,19 +29,13 @@
 
 /* Content styles */
 .content {
-  margin-left: 200px; /* Same as the width of the sidebar */
+  flex: 1; /* Take up remaining space */
   padding: 20px;
 }
 
-/* Responsive adjustments for smaller screens */
-@media only screen and (max-width: 768px) {
-  .sidebar {
-    width: 100px; /* Adjust the width as needed for smaller screens */
-  }
-
-  .content {
-    margin-left: 100px; /* Adjust the content margin accordingly */
-  }
+/* Container for sidebar and content */
+.container {
+  display: flex;
 }
 
 /* Additional styles for headings, paragraphs, and images */
@@ -50,7 +46,6 @@ h1 {
   font-size: 50px;
   color: white;
   background-color: #496d42;
-  margin-right: 1000px;
 }
 
 h2 {
