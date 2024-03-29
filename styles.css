@@ -2,8 +2,8 @@
 .sidebar {
   height: 100%;
   width: 20%; /* Adjust as needed */
-  min-width: 1px; /* Set a minimum width */
-  max-width: 250px; /* Set a maximum width */
+  min-width: 50px; /* Set a minimum width */
+  max-width: 100x; /* Set a maximum width */
   position: fixed;
   top: 0;
   left: 0;
